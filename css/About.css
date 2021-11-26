@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: prohibition, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5)), url(../static/TGA21_Superhero_Ambient_007.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header #background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    height: 650px;
+}
+
+#menu ul {
+    background-color: #000AFF;
+}
+
+#menu ul li {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 30px 20px;
+    font-style: italic;
+    font-weight: 650;
+}
+
+#menu ul li a {
+    text-decoration: none;
+}
+
+#header-content .title {
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#header-content .title h3 {
+    font-size: 20px;
+    width: 35%;
+}
+
+#header-content .title p {
+    font-size: 17px;
+    width: 35%;
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
+.area-menu ul {
+    background-color: #000AFF;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.area-menu ul li {
+    display: inline-block;
+    padding: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.area-menu ul li a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#media-kit {
+    padding-top: 100px;
+    padding-left: 30px;
+    background-color: #191919;
+    font-style: italic;
+    font-size: 26px;
+    height: 700px;
+}
+
+#media-kit h1 {
+    margin-bottom: 50px;
+}
+
+#media-kit .list li {
+    list-style-type: none;
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    margin-left: 60px;
+}
+
+#media-kit .list li a {
+    text-decoration: none;
+}
+
+#media-kit .list li a:hover img {
+    filter: none;
+}
+
+#media-kit .list li a img {
+    width: 450px;
+    height: 250px;
+}
+
+#media-kit .list li a .title {
+    font-style: normal;
+}
+
+#media-kit .list li a h4 {
+    font-style: normal;
+    font-size: 16px;
+}
+
+#media-kit .list li a .download {
+    margin-top: 50px;
+    border: 1px solid white;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#host {
+    background-color: #222222;
+    height: 750px;
+}
+
+#host .host-image {
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+#host .host-information {
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+#host .host-information h4 {
+    font-style: italic;
+}
+
+#host .host-information h1 {
+    font-style: italic;
+    font-size: 55px;
+    text-transform: uppercase;
+    width: 16px;
+}
+
+#host .host-information .title {
+    text-transform: uppercase;
+    width: 85%;
+    margin-bottom: 30px;
+}
+
+#host .host-information p {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+#host .host-information a {
+    border: 1px white solid;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#host .host-information a:hover {
+    filter: brightness(50%);
+}
+
+#advisory-board {
+    padding-top: 100px;
+    padding-left: 30px;
+    font-style: italic;
+    font-size: 26px;
+    height: 700px;
+}
+
+#advisory-board h1 {
+    text-transform: uppercase;
+}
+
+#advisory-board h3 {
+    font-size: 20px;
+    width: 35%;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+#advisory-board p {
+    margin-top: 20px;
+    font-style: normal;
+    width: 35%;
+    font-size: 16px;
+}
+
+#advisory-board .list {
+    margin-top: 50px;
+    list-style-type: none;
+}
+
+#advisory-board .list li {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 80px;
+}
+
+#advisory-board .list li .image {
+    width: 15%;
+    box-sizing: border-box;
+    float: left;
+}
+
+#advisory-board .list li .image img {
+    width: 230px;
+}
+
+#advisory-board .list li .information {
+    width: 15%;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 180px;
+}
+
+#advisory-board .list li .information h4 {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-style: normal;
+}
+
+#advisory-board .list li .information img {
+    margin-top: 30px;
+    width: 100%;
+}
