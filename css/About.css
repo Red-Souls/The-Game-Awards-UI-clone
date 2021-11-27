@@ -60,7 +60,7 @@ header #background-video {
 }
 
 .area-menu ul {
-    background-color: #000AFF;
+    background-color: #00047B;
     margin-top: 100px;
     text-align: center;
 }
@@ -248,4 +248,65 @@ header #background-video {
 #advisory-board .list li .information img {
     margin-top: 30px;
     width: 100%;
+}
+
+#press {
+    background-color: #00047B;
+    clear: both;
+    height: 1100px;
+}
+
+#press h1 {
+    padding-top: 100px;
+    padding-left: 30px;
+    font-style: italic;
+    font-size: 55px;
+}
+
+#press .list {
+    padding-left: 40px;
+    margin-top: 50px;
+    list-style-type: none;
+}
+
+#press .list li {
+    float: left;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    width: 28%;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+#press .list li a {
+    text-decoration: none;
+}
+
+#press .list li a .image {
+    filter: grayscale(100%);
+    width: 15%;
+}
+
+#press .list li a:hover .image {
+    filter: none;
+}
+
+#press .list li a .image img {
+    width: 403px;
+    height: 200px;
+}
+
+#press .list li a .information {
+    margin-top: 50px;
+    width: 400px;
+}
+
+#press .list li a .information h3 {
+    font-size: 30px;
+}
+
+#press .list li a .information p {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
