@@ -108,8 +108,8 @@ header #background-video {
 }
 
 #media-kit .list li a img {
-    width: 450px;
-    height: 250px;
+    width: 400px;
+    height: 200px;
 }
 
 #media-kit .list li a .title {
@@ -148,7 +148,7 @@ header #background-video {
     box-sizing: border-box;
     width: 50%;
     padding-top: 100px;
-    padding-left: 50px;
+    padding-left: 150px;
 }
 
 #host .host-information h4 {
@@ -309,4 +309,122 @@ header #background-video {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+#contact-us {
+    background-color: #191919;
+    height: 600px;
+}
+
+#contact-us .column-1 {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding-top: 200px;
+    padding-left: 15%;
+}
+
+#contact-us .column-1 h1 {
+    text-transform: uppercase;
+    font-size: 55px;
+}
+
+#contact-us .column-1 p {
+    width: 300px;
+}
+
+#contact-us .column-2 {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    padding-top: 200px;
+    padding-right: 15%;
+}
+
+#contact-us .column-2 h3 {
+    text-transform: uppercase;
+}
+
+#contact-us .column-2 p {
+    border: 1px solid white;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer {
+    clear: both;
+    background-color: black;
+}
+
+footer .icon ul {
+    text-align: center;
+}
+
+footer .icon ul li {
+    margin-top: 50px;
+    clear: both;
+    display: inline-block;
+    border: 1px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-right: 5px;
+}
+
+footer .icon ul li:first-child {
+    border: none;
+}
+
+footer .icon ul li:last-child {
+    border: none;
+}
+
+footer .icon ul li a:first-child, footer .icon li a:last-child {
+    text-decoration: none;
+}
+
+.line {
+    border-bottom: 1px solid rgb(112, 112, 112);
+    width: 200px;
+    position: relative;
+    margin-top: 30px;
+    left: 43.5%;
+}
+
+footer .information {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer .information .row-1 {
+    position: relative;
+    left: 41.5%;
+    float: left;
+}
+
+footer .information .row-2 {
+    position: relative;
+    right: 40%;
+    float: right;
+    margin-bottom: 30px;
+}
+
+footer .information .row-1 p, footer .information .row-2 p {
+    color: rgb(112, 112, 112);
+    font-weight: 700;
+}
+
+footer .company-name {
+    clear: both;
+    text-align: center;
+}
+
+footer .company-name p {
+    margin-bottom: 30px;
+    color: rgb(112, 112, 112);
 }

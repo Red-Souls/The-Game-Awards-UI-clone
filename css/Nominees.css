@@ -5,10 +5,18 @@
     font-family: prohibition, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
-body {
-    background-image: url(../static/TGA21_Superhero_Ambient_007.png);
-    background-size: cover;
-    background-attachment: fixed;
+header {
+    margin-bottom: 170px;
+}
+
+header #background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    height: 700px;
 }
 
 #menu ul {
@@ -27,55 +35,46 @@ body {
     text-decoration: none;
 }
 
-#content {
-    font-style: italic;
-}
-
-#content h1 {
-    font-style: italic;
-    margin-top: 200px;
-    font-size: 55px;
-    margin-left: 30px;
-    margin-bottom: 50px;
-}
-
-#content .list li {
-    list-style-type: none;
-    float: left;
-    width: 25%;
+header #header-content {
     margin-left: 100px;
-    box-sizing: border-box;
-    margin-bottom: 100px;
-}
-
-#content .list li a {
-    text-decoration: none;
-}
-
-#content .list li a:hover img {
-    filter: none;
-}
-
-#content .list li a img {
-    width: 400px;
-    height: 200px;
-    filter: grayscale(100%);
-}
-
-#content .list li a .date {
-    font-weight: bold;
-    color: rgb(111, 111, 111);
-    margin-bottom: 10px;
-}
-
-#content .list li a .title {
-    font-weight: bold;
-    font-style: normal;
+    margin-top: 50px;
     text-transform: uppercase;
 }
 
-#content .list li a:hover .title p {
-    color: rgb(111, 111, 111);
+header #header-content h1 {
+    font-size: 75px;
+}
+
+header #header-content h3 {
+    font-size: 16px;
+    width: 35%;
+}
+
+header #header-content button {
+    margin-top: 50px;
+    font-weight: bold;
+    width: 300px;
+    height: 62.6px;
+    background-color: #FF4026;
+    border: 1px solid #FF4026;
+}
+
+header #header-content button:hover {
+    background-color: white;
+    color: #FF4026;
+}
+
+header #header-content #button-1 {
+    border: 1px solid white;
+    background: none;
+    width: 250px;
+    margin-left: 30px;
+}
+
+header #header-content #button-1:hover {
+    background-color: #0008D5;
+    color: white;
+    border: 1px solid #0008D5;
 }
 
 footer {

@@ -87,7 +87,7 @@ header {
     float: left;
     width: 50%;
     height: 800px;
-    padding: 150px;
+    padding: 100px;
     box-sizing: border-box;
 }
 
@@ -97,7 +97,7 @@ header {
     width: 50%;
     height: 800px;
     padding-top: 150px;
-    padding-right: 150px;
+    padding-right: 100px;
     padding-bottom: 150px;
     padding-left: 50px;
     box-sizing: border-box;
@@ -137,7 +137,7 @@ header {
 }
 
 #news .news-list li {
-    margin-left: 50px;
+    margin-left: 150px;
     list-style-type: none;
     float: left;
     width: 33.33%;
