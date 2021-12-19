@@ -21,25 +21,9 @@ header #background-video {
     height: 650px;
 }
 
-#menu ul {
-    background-color: #000AFF;
-}
-
-#menu ul li {
-    text-transform: uppercase;
-    display: inline-block;
-    padding: 30px 20px;
-    font-style: italic;
-    font-weight: 650;
-}
-
-#menu ul li a {
-    text-decoration: none;
-}
-
 #header-content .title {
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 100px;
     font-size: 40px;
     text-transform: uppercase;
     font-style: italic;
@@ -75,6 +59,14 @@ header #background-video {
 .area-menu ul li a {
     font-weight: 700;
     text-decoration: none;
+}
+
+.area-menu ul li:hover {
+    background-color: white;
+}
+
+.area-menu ul li:hover a {
+    color: #00047B;
 }
 
 #media-kit {
@@ -354,77 +346,4 @@ header #background-video {
     width: 300px;
     font-weight: bold;
     text-transform: uppercase;
-}
-
-footer {
-    clear: both;
-    background-color: black;
-}
-
-footer .icon ul {
-    text-align: center;
-}
-
-footer .icon ul li {
-    margin-top: 50px;
-    clear: both;
-    display: inline-block;
-    border: 1px solid white;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    margin-right: 5px;
-}
-
-footer .icon ul li:first-child {
-    border: none;
-}
-
-footer .icon ul li:last-child {
-    border: none;
-}
-
-footer .icon ul li a:first-child, footer .icon li a:last-child {
-    text-decoration: none;
-}
-
-.line {
-    border-bottom: 1px solid rgb(112, 112, 112);
-    width: 200px;
-    position: relative;
-    margin-top: 30px;
-    left: 43.5%;
-}
-
-footer .information {
-    margin-top: 30px;
-    text-align: center;
-}
-
-footer .information .row-1 {
-    position: relative;
-    left: 41.5%;
-    float: left;
-}
-
-footer .information .row-2 {
-    position: relative;
-    right: 40%;
-    float: right;
-    margin-bottom: 30px;
-}
-
-footer .information .row-1 p, footer .information .row-2 p {
-    color: rgb(112, 112, 112);
-    font-weight: 700;
-}
-
-footer .company-name {
-    clear: both;
-    text-align: center;
-}
-
-footer .company-name p {
-    margin-bottom: 30px;
-    color: rgb(112, 112, 112);
 }

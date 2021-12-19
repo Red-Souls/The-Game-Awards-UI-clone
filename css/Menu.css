@@ -1,0 +1,27 @@
+#menu ul {
+    background-color: #000AFF;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#menu ul li {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 30px 20px;
+    font-style: italic;
+    font-weight: 650;
+}
+
+#menu ul li a {
+    text-decoration: none;
+}
+
+#menu ul li:hover {
+    background-color: white;
+}
+
+#menu ul li:hover a {
+    color: #000AFF;
+}
